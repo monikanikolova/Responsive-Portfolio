@@ -296,7 +296,7 @@ form {
         width: 100%;
     }
     .nav,
-    .footer,
+    footer,
     .header {
         width: 100%;
     }
@@ -315,7 +315,7 @@ form {
         margin: 0 0 0 80px;
     }
     .pictures {
-        margin: 0 0 0 30px;
+        margin: 20px 0 0 30px;
     }
 
 
@@ -326,25 +326,93 @@ form {
         width: 100%;
     }
     .nav {
-        
-        float: left;
-        margin: 0 0 37px 0;
+        float: none;
+        margin: 0 auto;
         padding: 0;
-        width: 115%;
+        width: 100%;
     }
     #name {
+        float:none;
         margin: 0 auto;
         width: 100%;
         padding: 25px 0 0 0;
     }
-    .section {
+    section {
         width: 100%;
-        margin: 80px 0 0 58px;
-        height: 500px;
+        margin: 75px 0 0 -31px;
+        height: 800px;
     }
     .content {
-        margin: 0 0 0 0;
+        width: 100%;
+        margin: 0 auto;
     }
+    ul {
+        float: none;
+        align-content: center;
+        margin:0 auto;
+        padding: 0 60px 0 0;
+    }
+    li {
+        font-size: 10px;
+        padding:15px;
+    }
+    p {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+        padding: 3px;
+    }
+    #next {
+        margin: 0 auto;
+        padding: 3px;
+    }
+    img {
+        float: none;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+
+    }
+    #about {
+        width:95%;
+        text-align: center;
+
+    }
+    footer {
+        width:100%;
+    }
+
+    form {
+        width: 100%;
+    }
+    #fname,
+    #message,
+    #email {
+        width: 100%;
+    }
+    .pictures {
+        width:100%;
+        margin: 80px 0 0 0;
+        height:940px;
+    }
+    .work {
+        width: 100%;
+        align-content: center;
+        margin: 0 0 0 80px;
+    }
+    .work h3 {
+        bottom: 40px;
+        width: 51%;
+        padding: 7px;
+        left: -25px;
+    }
+    #port {
+        width: 95%;
+        text-align: center;
+    }
+
+
 }
 
 
