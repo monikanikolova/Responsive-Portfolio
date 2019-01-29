@@ -1,2 +1,3 @@
 # BasicPortfolio
-html/css homework
+Mobile Responsive
+
